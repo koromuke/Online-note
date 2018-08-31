@@ -1,4 +1,4 @@
-## Interfaces in Java
+# Interfaces in Java
 Like a class, an interface can have methods and variables, but the methods declared in interface are bu default abstract(only method signature, no body).
 
  -Interfaces specify what a class must do and not how. It is the blueprint of the class.
@@ -9,7 +9,7 @@ Like a class, an interface can have methods and variables, but the methods decla
 To declare an interface, use interface keyword. It is userd to provide total abstraction. That means all the methods in interface are declared woth empty body and are public, 
 static and final by dedaul. A class that implement interface must implement all hte methods declared in the interface. To implement interface use implements keyword.
 
-# Why do we user iterface?
+## Why do we user iterface?
  -It is used to achieve total abstraction.
  -Since java does not support multiple inheritance in case of class, but by using interface it can achieve multiple inheritance.
  -It is also userd to achieve loose coupling.
@@ -61,7 +61,7 @@ class testClass implements in1
         System.out.println(a);
     }
 }
-
+```
 ### Output:
 ```
 Geek
